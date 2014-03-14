@@ -15,7 +15,7 @@ frisby.create('Sample GET')
     .expectHeaderContains('content-type', 'application/json')
     .expectJSONTypes(
         {
-            "user_name":String,
+            "user_name": Number,
             "has_credit_card":Boolean,
             "age":Number
         }
